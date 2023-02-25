@@ -1,0 +1,99 @@
+.benefits__manage .container {
+    padding-bottom: 80px;
+}
+.description__content-portfolio {
+  display: flex;
+}
+.left__aside-img {
+  margin-right: 125px;
+}
+.right-content {
+  padding-top: 102px;
+  padding-bottom: 102px;
+  border-top: 1px solid #EAEAEB;
+  border-bottom: 1px solid #EAEAEB;
+  max-width: 350px;
+}
+.benefits__titles {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+  text-transform: capitalize;
+  margin-bottom: 28px;
+}
+.benefits__texts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+.benefits__links {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 35px;
+    padding-left: 32px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323d;
+    border: 1px solid #33323d ;
+}
+
+// FOR TABLET 
+@media only screen and (max-width:980px) {
+    
+    .description__content-portfolio {
+        align-items: center;
+    }
+    .left {
+        padding-top: 83px;
+        padding-bottom: 83px;
+        margin-right: 69px;
+    }
+    .left__aside-img {
+        width: 100%;
+        height: auto;
+    }
+    .right-content {
+        padding-top: 32px;
+        padding-bottom: 50px;
+    }
+    .benefits__texts {
+        margin-bottom: 35px;
+    }
+}
+
+    // FOR PHONE 
+    @media only screen and (max-width:750px) {
+        .benefits__manage .container {
+            padding-bottom: 72px;
+        }
+        .description__content-portfolio {
+            flex-direction: column;
+        }
+        .left {
+            max-width: 100%;
+            margin-right: 0;
+            align-items: center;
+            margin-bottom: 32px;
+            padding: 0;
+        }
+        .left__aside-img {
+            margin-right: 0;
+        }
+        .right-content {
+            max-width: 100%;
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+
+    }
+
+

@@ -1,0 +1,69 @@
+.bcg__color-footer {
+  background-color: #33323d;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.bcg__color-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.for__logo-content {
+    display: flex;
+    align-items: center;
+}
+.footer__logo-img {
+  display: block;
+  margin-right: 48px;
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 42px;
+}
+.navbar__item a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+}
+.links__footer {
+    display: flex;
+    align-items: center;
+}
+.links__imgs {
+    display: block;
+    margin-right: 15px;
+}
+
+// FOR PHONE 
+@media only screen and (max-width:630px) {
+    .bcg__color-footer {
+        padding: 56px 135px;
+    }
+    .bcg__color-footer .container {
+        flex-direction: column;
+    }
+    .for__logo-content {
+        flex-direction: column;
+    }
+    .footer__logo-img {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    .navbar__list{
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .navbar__item a {
+        text-align: center;
+    }
+    .links__footer {
+        justify-content: center;
+
+    }
+
+}

@@ -1,0 +1,35 @@
+.description__content-bookmark {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.bookmark__img {
+    margin-right: 0;
+}
+.bookmark__content {
+    margin-right: 125px;
+}
+.fylo__img {
+    max-width: 540px;
+}
+// FOR TABLET 
+@media only screen and (max-width:980px) {
+    .description__content-bookmark {
+        align-items: center;
+    }
+    .bookmark__content {
+        margin-right: 69px;
+    }
+}
+
+// FOR PHONES 
+@media only screen and (max-width:750px) {
+    .bookmark .container {
+        padding-bottom: 72px;
+    }
+    .description__content-bookmark {
+        flex-direction: column;
+    }
+    .bookmark__content {
+        margin-right: 0;
+    }
+}

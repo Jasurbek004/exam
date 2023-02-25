@@ -1,0 +1,39 @@
+/* ibarra-real-nova-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ibarra-real-nova-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ibarra-real-nova-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ibarra-real-nova-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ibarra-real-nova-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/ibarra-real-nova-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ibarra-real-nova-v20-latin-regular.svg#IbarraRealNova') format('svg'); /* Legacy iOS */
+  }
+  /* ibarra-real-nova-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/ibarra-real-nova-v20-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ibarra-real-nova-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ibarra-real-nova-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ibarra-real-nova-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/ibarra-real-nova-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ibarra-real-nova-v20-latin-500.svg#IbarraRealNova') format('svg'); /* Legacy iOS */
+  }
+  /* ibarra-real-nova-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/ibarra-real-nova-v20-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ibarra-real-nova-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ibarra-real-nova-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ibarra-real-nova-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/ibarra-real-nova-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ibarra-real-nova-v20-latin-700.svg#IbarraRealNova') format('svg'); /* Legacy iOS */
+  }

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    h1,h2,h3 {
+        font-family: 'Ibarra Real Nova', sans-serif;
+    }
+    p,a {
+        font-family: 'Public sans', sans-serif;    }
+}

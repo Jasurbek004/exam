@@ -1,0 +1,46 @@
+.summary .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 150px;
+}
+.title__summary {
+    max-width: 350px;
+}
+.summary__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.summaty__link {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 35px;
+  padding-left: 32px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323d;
+  border: 1px solid #33323d;
+}
+
+// FOR PHONE 
+@media only screen and (max-width:600px) {
+    .summary .container {
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+    .title__summary {
+      text-align: center;
+    } 
+    .summary__title {
+        margin-bottom: 40px;
+    }
+
+}
+
+
